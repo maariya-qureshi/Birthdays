@@ -16,6 +16,7 @@ struct BirthdaysApp: App {
                 ContentView()
                     //adding in modelContainer
                     .modelContainer(for: Friend.self)
+            //allows for data stored within Friend to persist (all the friends & their birthdays)
         }
     }
 }
